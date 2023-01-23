@@ -1,0 +1,89 @@
+td.checker {
+    width : 15%;
+}
+
+td.task {
+    width: 80%;
+    font-size: 4.5ch;
+}
+
+td.del {
+    width: 10%;
+}
+
+td.del:hover {
+    font-weight: bold;
+}
+
+span.taskinner {
+    color: #0000b3;
+}
+
+span.taskinner:hover {
+    color: #3366ff;
+}
+
+input {
+    width: 100%;
+    font-size: 1.25ch;
+}
+
+button {
+    height: 6ch;
+    width: 15ch;
+    margin-left: 2ch;
+}
+
+body {
+    font-family: "Bradley Hand ITC", "Lucidia Handwriting", cursive;
+    font-size:3ch;
+    background-image: url("background3.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+table {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 73%;
+}
+
+span.completed {
+    text-decoration: line-through;
+}
+
+p.title {
+    padding-top: 4%;
+    font-size: 10ch;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+p.controls {
+    margin-top: 0%;
+    font-size: 2ch;
+    margin-bottom: 2%;
+}
+
+p.toggleview {
+    margin-top: 0%;
+    font-size: 3ch;
+}
+
+div.header {
+    margin-top: 0%;
+    background-image: url("pins1.png");
+    background-repeat: no-repeat;
+    background-size: 102%;
+}
+
+tr#inputrow {
+    margin-top: 2ch;
+}
+
+select {
+    width: 20ch;
+    height: 5ch;
+}

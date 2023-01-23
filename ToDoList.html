@@ -1,0 +1,24 @@
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+<center>
+<div class="header">
+    <p class="title">To Do List</p>
+    <p class="controls"><span><button id="addTask" onclick="displayInput()">New Task</button>             <button id="clearall" onclick="clearall()">Clear List</button>               <button id="helpbtn" onclick="displayhelp()">Help</button></span>
+        <p class="toggleview"><span>View Tasks: <select id="tabletype" onchange="changefunc()">
+        <option>All</option>
+        <option>Completed</option>
+        <option>Yet to complete</option>
+    </select></span> </p>
+</div>
+<div class="todotable">
+    <table id="ToDoListTable"></table>
+</div>
+</center>
+<script src="script.js"></script>
+</body>
+</html>
