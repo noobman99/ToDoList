@@ -13,6 +13,7 @@ td.del {
 
 td.del:hover {
     font-weight: bold;
+    color: red;
 }
 
 span.taskinner {
